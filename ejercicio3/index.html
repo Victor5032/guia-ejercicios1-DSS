@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carro facil</title>
+</head>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-3">
+               <div class="card">
+                  <div class="card-header text-center">
+                    <b>Agencias carro facil</b>
+                  </div>
+                    <div class="card-body">
+                        <form action="ventas.php" method="post" id="formulario" name="formulario" class="w-100">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4 mt-5 align-items-center d-flex justify-content-center">
+                                        <div class="card">
+                                          <div class="card-header">
+                                            <b>Agencia Perisur</b>
+                                          </div>
+                                          <div class="card-body">
+                                            <span class="card-title">Ingrese las ventas en orden por trimestre</span><br><br>
+                                            <input type="number" class="form-control" id="numeroPerisur" name="numeroPerisur">
+                                            <select id="ingresadosPerisur" name="ingresadosPerisur[]" size="4" multiple="multiple" class="form-control mt-3"></select>
+                                            <center><input type="button" value="Ingresar" class="btn btn-primary mt-3" id="aceptarPerisur"></center>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mt-5 align-items-center d-flex justify-content-center">
+                                        <div class="card">
+                                          <div class="card-header">
+                                            <b>Agencia Valle</b>
+                                          </div>
+                                          <div class="card-body">
+                                            <span class="card-title">Ingrese las ventas en orden por trimestre</span><br><br>
+                                            <input type="number" class="form-control" id="numeroValle" name="numeroValle">
+                                            <select id="ingresadosValle" name="ingresadosValle[]" size="4" multiple="multiple" class="form-control mt-3"></select>
+                                            <center><input type="button" value="Ingresar" class="btn btn-primary mt-3" id="aceptarValle"></center>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mt-5 align-items-center d-flex justify-content-center">
+                                        <div class="card">
+                                          <div class="card-header">
+                                            <b>Agencia Lomas</b>
+                                          </div>
+                                          <div class="card-body">
+                                            <span class="card-title">Ingrese las ventas en orden por trimestre</span><br><br>
+                                            <input type="number" class="form-control" id="numeroLomas" name="numeroLomas">
+                                            <select id="ingresadosLomas" name="ingresadosLomas[]" size="4" multiple="multiple" class="form-control mt-3"></select>
+                                            <center><input type="button" value="Ingresar" class="btn btn-primary mt-3" id="aceptarLomas"></center>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <center><input type="button" class="btn btn-primary mt-5 mb-3" value="Enviar todo" id="btnEnviarTodos"></center>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
