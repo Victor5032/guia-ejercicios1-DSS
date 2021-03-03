@@ -1,6 +1,6 @@
 # Guia de ejercicios - DSS
 
-<center><h3>Grupo 03L</h3></center>
+<div style="text-align: center;">Grupo 03L</div>
 
 Integrantes: 
 
