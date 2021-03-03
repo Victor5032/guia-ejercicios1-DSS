@@ -12,6 +12,6 @@ enviar.onclick = function(){
     }else if(numero.value == 0){
         alert("Ingrese un numero mayor a 0");
     }else if(numero.value > 0){
-        document.formulario.submit();
+        document.getElementById('formulario').submit();
     }
 }
